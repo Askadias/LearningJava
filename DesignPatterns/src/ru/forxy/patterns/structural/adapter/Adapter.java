@@ -18,6 +18,6 @@ public class Adapter implements Target {
     }
 
     public int getId() {
-        return Integer.parseInt(adaptee.getId());
+        return Integer.parseInt(adaptee.getSomeNumberThatLooksLikeId());
     }
 }

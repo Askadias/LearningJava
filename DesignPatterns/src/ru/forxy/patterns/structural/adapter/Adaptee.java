@@ -15,7 +15,7 @@ public class Adaptee {
         this.id = id;
     }
 
-    public String getId() {
+    public String getSomeNumberThatLooksLikeId() {
         return id;
     }
 
