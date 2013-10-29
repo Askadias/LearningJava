@@ -74,7 +74,7 @@ public class MyObjectPool implements IObjectPool{
     }
 
     private Object createObject() {
-        Object obj = creator.factoryMethod();
+        Object obj = creator.create();
         instanceCount++;
         return obj;
     }

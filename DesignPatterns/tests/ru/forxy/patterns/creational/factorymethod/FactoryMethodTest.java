@@ -23,11 +23,11 @@ public class FactoryMethodTest extends TestCase {
         log.info("Creating ProductA");
         assertEquals("Creator A should create ProductA",
                 "class ru.forxy.patterns.creational.factorymethod.ProductA",
-                creatorA.factoryMethod().getClass().toString());
+                creatorA.create().getClass().toString());
 
         log.info("Creating ProductB");
         assertEquals("Creator B should create ProductB",
                 "class ru.forxy.patterns.creational.factorymethod.ProductB",
-                creatorB.factoryMethod().getClass().toString());
+                creatorB.create().getClass().toString());
     }
 }

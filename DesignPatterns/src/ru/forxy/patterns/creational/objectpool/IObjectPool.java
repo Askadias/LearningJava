@@ -7,7 +7,7 @@ package ru.forxy.patterns.creational.objectpool;
  * Time: 12:41
  * To change this template use File | Settings | File Templates.
  */
-public interface IObjectPool {
+public interface IObjectPool<T> {
 
     public int getSize();
 
@@ -17,9 +17,9 @@ public interface IObjectPool {
 
     public void setMaxInstances(int maxValue);
 
-    public Object getObject();
+    public T getObject();
 
-    public Object waitForObject() throws InterruptedException;
+    public T waitForObject() throws InterruptedException;
 
-    public void release(Object object);
+    public void release(T object);
 }

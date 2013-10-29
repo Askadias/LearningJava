@@ -93,7 +93,7 @@ public class ObjectPool implements IObjectPool{
     }
 
     public Object createObject() {
-        Object newObject = mCreator.factoryMethod();
+        Object newObject = mCreator.create();
         mInstanceCount++;
         return newObject;
     }

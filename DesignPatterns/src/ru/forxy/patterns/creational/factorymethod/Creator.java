@@ -7,7 +7,7 @@ package ru.forxy.patterns.creational.factorymethod;
  * Time: 1:30
  * To change this template use File | Settings | File Templates.
  */
-public abstract class Creator {
+public abstract class Creator<T> {
 
-    public abstract Product factoryMethod();
+    public abstract T create();
 }

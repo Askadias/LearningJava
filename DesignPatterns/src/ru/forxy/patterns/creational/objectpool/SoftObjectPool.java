@@ -4,6 +4,7 @@ import ru.forxy.patterns.creational.factorymethod.Creator;
 
 import java.lang.ref.SoftReference;
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by IntelliJ IDEA.
@@ -12,26 +13,23 @@ import java.util.ArrayList;
  * Time: 12:31
  * To change this template use File | Settings | File Templates.
  */
-public class SoftObjectPool implements IObjectPool{
+public class SoftObjectPool<T> implements IObjectPool<T>{
 
     private static final Object SYNC = new Object();
 
-    private ArrayList mPool = new ArrayList();
+    private List<SoftReference<T>> mPool = new ArrayList<SoftReference<T>>();
 
-    private Creator mCreator;
+    private Creator<T> mCreator;
 
     private int mInstanceCount;
 
     private int mMaxInstances;
 
-    private Class mPoolClass;
-
-    public SoftObjectPool(Class poolClass, Creator creator) {
-        this(poolClass, creator, Integer.MAX_VALUE);
+    public SoftObjectPool(Creator<T> creator) {
+        this(creator, Integer.MAX_VALUE);
     }
 
-    public SoftObjectPool(Class poolClass, Creator creator, int maxInstances) {
-        this.mPoolClass = poolClass;
+    public SoftObjectPool(Creator<T> creator, int maxInstances) {
         this.mCreator = creator;
         mMaxInstances = maxInstances;
     }
@@ -54,9 +52,9 @@ public class SoftObjectPool implements IObjectPool{
         mMaxInstances = maxValue;
     }
 
-    public Object getObject() {
+    public T getObject() {
         synchronized (SYNC) {
-            Object thisObject = removeObject();
+            T thisObject = removeObject();
             if (thisObject != null) {
                 return thisObject;
             }
@@ -68,9 +66,9 @@ public class SoftObjectPool implements IObjectPool{
         }
     }
 
-    public Object waitForObject() throws InterruptedException {
+    public T waitForObject() throws InterruptedException {
         synchronized (SYNC) {
-            Object thisObject = removeObject();
+            T thisObject = removeObject();
             if (thisObject != null) {
                 return thisObject;
             }
@@ -86,16 +84,16 @@ public class SoftObjectPool implements IObjectPool{
         }
     }
 
-    private Object createObject() {
-        Object newObject = mCreator.factoryMethod();
+    private T createObject() {
+        T newObject = mCreator.create();
         mInstanceCount++;
         return newObject;
     }
 
-    private Object removeObject() {
+    private T removeObject() {
         while (mPool.size() > 0) {
-            SoftReference thisRef = (SoftReference) mPool.remove(mPool.size() - 1);
-            Object thisObject = thisRef.get();
+            SoftReference<T> thisRef = mPool.remove(mPool.size() - 1);
+            T thisObject = thisRef.get();
             if (thisObject != null) {
                 return thisObject;
             }
@@ -104,16 +102,12 @@ public class SoftObjectPool implements IObjectPool{
         return null;
     }
 
-    public void release(Object object) {
+    public void release(T object) {
         if (object == null) {
             throw new NullPointerException();
         }
-        if (!mPoolClass.isInstance(object)) {
-            String actualClassName = object.getClass().getName();
-            throw new ArrayStoreException(actualClassName);
-        }
         synchronized (SYNC) {
-            mPool.add(new SoftReference(object));
+            mPool.add(new SoftReference<T>(object));
             SYNC.notify();
         }
     }

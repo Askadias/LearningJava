@@ -7,9 +7,9 @@ package ru.forxy.patterns.creational.factorymethod;
  * Time: 1:29
  * To change this template use File | Settings | File Templates.
  */
-public class ConcreteCreatorB extends Creator {
+public class ConcreteCreatorB extends Creator<Product> {
 
-    public Product factoryMethod() {
+    public Product create() {
         return new ProductB();
     }
 }
