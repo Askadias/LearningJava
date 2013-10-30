@@ -7,9 +7,19 @@ package ru.forxy.patterns.behavioral.visitor;
  * Time: 20:21
  * To change this template use File | Settings | File Templates.
  */
-public class ElementB implements Element{
+public class ElementB implements Element {
 
-    public void accept(Visitor visitor) {
+    private String name = "B";
+
+    public ElementB(String name) {
+        this.name = name;
+    }
+
+    public void accept(Visitor<Element> visitor) {
         visitor.visit(this);
+    }
+
+    public String getName() {
+        return name;
     }
 }

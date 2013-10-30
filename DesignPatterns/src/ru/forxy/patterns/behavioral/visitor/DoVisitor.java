@@ -7,13 +7,9 @@ package ru.forxy.patterns.behavioral.visitor;
  * Time: 20:23
  * To change this template use File | Settings | File Templates.
  */
-public class DoVisitor implements Visitor {
+public class DoVisitor implements Visitor<Element> {
 
-    public void visit(ElementA elementA) {
-        System.out.println("Do something with A: " + elementA.getName());
-    }
-
-    public void visit(ElementB elementB) {
-        System.out.println("Do something with B");
+    public void visit(Element element) {
+        System.out.println("Do something with : " + element.getName());
     }
 }

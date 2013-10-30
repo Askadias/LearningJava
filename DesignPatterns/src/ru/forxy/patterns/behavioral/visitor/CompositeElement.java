@@ -9,15 +9,22 @@ package ru.forxy.patterns.behavioral.visitor;
  */
 public class CompositeElement implements Element {
 
+    private String name = "Composite";
+
     private Element[] elements;
 
-    public CompositeElement() {
-        this.elements = new Element[]{new ElementA("NameA"), new ElementB()};
+    public CompositeElement(String name) {
+        this.name = name;
+        this.elements = new Element[]{new ElementA("NameA"), new ElementB("NameB")};
     }
 
-    public void accept(Visitor visitor) {
+    public void accept(Visitor<Element> visitor) {
         for (Element element: elements) {
             element.accept(visitor);
         }
+    }
+
+    public String getName() {
+        return name;
     }
 }

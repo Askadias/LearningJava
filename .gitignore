@@ -230,4 +230,4 @@ pip-log.txt
 #############
 ## Java
 #############
-.class
+*.class

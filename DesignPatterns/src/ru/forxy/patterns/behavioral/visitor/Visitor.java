@@ -7,9 +7,7 @@ package ru.forxy.patterns.behavioral.visitor;
  * Time: 20:20
  * To change this template use File | Settings | File Templates.
  */
-public interface Visitor {
+public interface Visitor<T> {
 
-    public void visit(ElementA elementA);
-
-    public void visit(ElementB elementB);
+    public void visit(T element);
 }

@@ -9,17 +9,17 @@ package ru.forxy.patterns.behavioral.visitor;
  */
 public class ElementA implements Element {
 
-    private String name;
+    private String name = "A";
 
     public ElementA(String name) {
         this.name = name;
     }
 
-    public String getName() {
-        return name;
+    public void accept(Visitor<Element> visitor) {
+        visitor.visit(this);
     }
 
-    public void accept(Visitor visitor) {
-        visitor.visit(this);
+    public String getName() {
+        return name;
     }
 }

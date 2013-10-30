@@ -7,13 +7,9 @@ package ru.forxy.patterns.behavioral.visitor;
  * Time: 20:23
  * To change this template use File | Settings | File Templates.
  */
-public class PrintVisitor implements Visitor {
+public class PrintVisitor implements Visitor<Element> {
 
-    public void visit(ElementA elementA) {
-        System.out.println("Visit A: " + elementA.getName());
-    }
-
-    public void visit(ElementB elementB) {
-        System.out.println("Visit B");
+    public void visit(Element element) {
+        System.out.println("Visit: " + element.getName());
     }
 }

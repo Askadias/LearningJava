@@ -17,7 +17,7 @@ public class VisitorTest extends TestCase {
 
     public void testVisitor() {
         log.info("Creating composite element and two visitors");
-        CompositeElement compositeElement = new CompositeElement();
+        CompositeElement compositeElement = new CompositeElement("NameComposite");
         compositeElement.accept(new PrintVisitor());
         compositeElement.accept(new DoVisitor());
     }

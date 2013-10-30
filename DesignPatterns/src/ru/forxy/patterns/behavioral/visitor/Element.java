@@ -9,5 +9,7 @@ package ru.forxy.patterns.behavioral.visitor;
  */
 public interface Element {
 
-    public void accept(Visitor visitor);
+    String getName();
+
+    void accept(Visitor<Element> visitor);
 }

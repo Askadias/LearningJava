@@ -7,7 +7,7 @@ package ru.forxy.patterns.creational.singleton;
  * Time: 23:25
  * To change this template use File | Settings | File Templates.
  */
-public class Singleton {
+public final class Singleton {
 
     private volatile static Singleton mInstance = null;
 
