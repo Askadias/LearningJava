@@ -110,7 +110,7 @@ public class Main {
 
         //Sub s = new Sub(1);
         //s.m();
-        Integer i = 0;
-        System.out.println(Integer.parseInt("100.1", 8));
+        //Integer i = 0;
+        //System.out.println(Integer.parseInt("100.1", 8));
     }
 }
