@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4501707-85ec-425d-a1ab-bec2fd9d618d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/sample/callcenter/Person.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/sample/callcenter/Person.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java.iws" afterPath="$PROJECT_DIR$/Java.iws" />
     </list>
     <ignored path="Java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -112,10 +113,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Person.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Person.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/sample/callcenter/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10297483" vertical-offset="0" max-vertical-offset="437">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
               <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
               <folding>
                 <element signature="e#179#180#0" expanded="true" />
@@ -123,6 +124,29 @@
                 <element signature="e#242#243#0" expanded="true" />
                 <element signature="e#269#270#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitattributes" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="420">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.41647598" vertical-offset="3148" max-vertical-offset="3615">
+              <caret line="222" column="5" selection-start-line="222" selection-start-column="5" selection-end-line="222" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -414,6 +438,7 @@
         <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/sample/callcenter/Operator.java" />
         <option value="$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/sample/callcenter/CallCenterTest.java" />
         <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/sample/callcenter/Person.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -1014,12 +1039,12 @@
       <updated>1402947805323</updated>
       <workItem from="1402947809521" duration="2692000" />
       <workItem from="1402950690228" duration="643000" />
-      <workItem from="1402951555925" duration="4192000" />
+      <workItem from="1402951555925" duration="4292000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7527000" />
+    <option name="totallyTimeSpent" value="7627000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="810" extended-state="6" />
@@ -1046,7 +1071,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32803467" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1335,7 +1360,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/sample/callcenter/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10297483" vertical-offset="0" max-vertical-offset="437">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
           <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
           <folding>
             <element signature="e#179#180#0" expanded="true" />
@@ -1343,6 +1368,25 @@
             <element signature="e#242#243#0" expanded="true" />
             <element signature="e#269#270#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41647598" vertical-offset="3148" max-vertical-offset="3615">
+          <caret line="222" column="5" selection-start-line="222" selection-start-column="5" selection-end-line="222" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
