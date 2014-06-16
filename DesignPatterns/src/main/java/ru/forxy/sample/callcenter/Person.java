@@ -1,7 +1,7 @@
 package ru.forxy.sample.callcenter;
 
 /**
- * Created by Tiger on 17.06.14.
+ * Base class for person representation
  */
 public class Person {
 

@@ -2,144 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4501707-85ec-425d-a1ab-bec2fd9d618d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/sample/callcenter/CallCenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/sample/callcenter/CallCenterTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/sample/callcenter/Customer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/sample/callcenter/Operator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/sample/callcenter/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DesignPatterns/build.gradle" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/Main.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/command/Command.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/command/Command.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/command/Command1.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/command/Command1.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/command/Command2.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/command/Command2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/command/Invoker.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/command/Invoker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/command/Receiver.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/command/Receiver.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/interpreter/ArithmeticExpression.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/interpreter/ArithmeticExpression.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/interpreter/Evaluator.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/interpreter/Evaluator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/interpreter/Expression.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/interpreter/Expression.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/interpreter/Minus.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/interpreter/Minus.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/interpreter/Number.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/interpreter/Number.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/interpreter/Plus.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/interpreter/Plus.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/interpreter/Variable.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/interpreter/Variable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/mediator/Command.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/mediator/Command.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/mediator/CommandA.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/mediator/CommandA.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/mediator/CommandB.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/mediator/CommandB.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/mediator/CommandImpl.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/mediator/CommandImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/mediator/Mediator.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/mediator/Mediator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/memento/Caretaker.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/memento/Caretaker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/memento/Memento.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/memento/Memento.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/memento/Originator.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/memento/Originator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/observer/Observable.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/observer/Observable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/observer/ObservableImpl.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/observer/ObservableImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/observer/Observer.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/observer/Observer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/observer/ObserverImpl.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/observer/ObserverImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/responsibility/ChainHandler.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/responsibility/ChainHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/responsibility/Handler.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/responsibility/Handler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/servant/Master.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/servant/Master.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/servant/MasterA.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/servant/MasterA.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/servant/MasterB.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/servant/MasterB.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/servant/Position.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/servant/Position.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/servant/Servant.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/servant/Servant.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/state/State.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/state/State.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/state/StateA.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/state/StateA.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/state/StateB.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/state/StateB.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/state/StateContext.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/state/StateContext.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/strategy/Context.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/strategy/Context.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/strategy/Strategy.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/strategy/Strategy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/strategy/StrategyA.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/strategy/StrategyA.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/strategy/StrategyB.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/strategy/StrategyB.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/templatemethod/ImplementationA.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/templatemethod/ImplementationA.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/templatemethod/ImplementationB.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/templatemethod/ImplementationB.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/templatemethod/Template.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/templatemethod/Template.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/visitor/CompositeElement.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/visitor/CompositeElement.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/visitor/DoVisitor.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/visitor/DoVisitor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/visitor/Element.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/visitor/Element.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/visitor/ElementA.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/visitor/ElementA.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/visitor/ElementB.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/visitor/ElementB.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/visitor/PrintVisitor.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/visitor/PrintVisitor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/behavioral/visitor/Visitor.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/behavioral/visitor/Visitor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/creational/abstractfactory/AbstractFactory.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/creational/abstractfactory/AbstractFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/creational/abstractfactory/ConcreteFactory1.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/creational/abstractfactory/ConcreteFactory1.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/creational/abstractfactory/ConcreteFactory2.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/creational/abstractfactory/ConcreteFactory2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/creational/abstractfactory/ProductA.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/creational/abstractfactory/ProductA.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/creational/abstractfactory/ProductA1.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/creational/abstractfactory/ProductA1.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/creational/abstractfactory/ProductA2.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/creational/abstractfactory/ProductA2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/creational/abstractfactory/ProductB.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/creational/abstractfactory/ProductB.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/creational/abstractfactory/ProductB1.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/creational/abstractfactory/ProductB1.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/creational/abstractfactory/ProductB2.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/creational/abstractfactory/ProductB2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/creational/builder/AbstractBuilder.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/creational/builder/AbstractBuilder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/creational/builder/ConcreteBuilderA.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/creational/builder/ConcreteBuilderA.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/creational/builder/ConcreteBuilderB.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/creational/builder/ConcreteBuilderB.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/creational/builder/Director.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/creational/builder/Director.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/creational/builder/Product.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/creational/builder/Product.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/creational/factorymethod/ConcreteCreatorA.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/creational/factorymethod/ConcreteCreatorA.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/creational/factorymethod/ConcreteCreatorB.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/creational/factorymethod/ConcreteCreatorB.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/creational/factorymethod/Creator.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/creational/factorymethod/Creator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/creational/factorymethod/Product.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/creational/factorymethod/Product.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/creational/factorymethod/ProductA.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/creational/factorymethod/ProductA.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/creational/factorymethod/ProductB.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/creational/factorymethod/ProductB.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/creational/objectpool/IObjectPool.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/creational/objectpool/IObjectPool.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/creational/objectpool/MyObjectPool.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/creational/objectpool/MyObjectPool.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/creational/objectpool/ObjectPool.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/creational/objectpool/ObjectPool.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/creational/objectpool/SoftObjectPool.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/creational/objectpool/SoftObjectPool.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/creational/prototype/Prototype.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/creational/prototype/Prototype.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/creational/singleton/Singleton.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/creational/singleton/Singleton.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/structural/adapter/Adaptee.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/structural/adapter/Adaptee.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/structural/adapter/Adapter.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/structural/adapter/Adapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/structural/adapter/Target.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/structural/adapter/Target.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/structural/bridge/Bridge.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/structural/bridge/Bridge.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/structural/bridge/CustomBridge.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/structural/bridge/CustomBridge.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/structural/bridge/Implementor.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/structural/bridge/Implementor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/structural/bridge/ImplementorA.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/structural/bridge/ImplementorA.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/structural/bridge/ImplementorB.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/structural/bridge/ImplementorB.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/structural/composite/Component.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/structural/composite/Component.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/structural/composite/Composite.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/structural/composite/Composite.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/structural/composite/Leaf.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/structural/composite/Leaf.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/structural/decorator/Component.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/structural/decorator/Component.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/structural/decorator/ConcreteComponent.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/structural/decorator/ConcreteComponent.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/structural/decorator/ConcreteDecoratorA.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/structural/decorator/ConcreteDecoratorA.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/structural/decorator/ConcreteDecoratorB.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/structural/decorator/ConcreteDecoratorB.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/structural/decorator/Decorator.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/structural/decorator/Decorator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/structural/facade/Facade.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/structural/facade/Facade.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/structural/facade/SubsystemA.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/structural/facade/SubsystemA.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/structural/facade/SubsystemB.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/structural/facade/SubsystemB.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/structural/facade/SubsystemC.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/structural/facade/SubsystemC.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/structural/flyweight/ConcreteFlyweightA.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/structural/flyweight/ConcreteFlyweightA.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/structural/flyweight/ConcreteFlyweightB.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/structural/flyweight/ConcreteFlyweightB.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/structural/flyweight/Flyweight.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/structural/flyweight/Flyweight.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/structural/flyweight/FlyweightFactory.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/structural/flyweight/FlyweightFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/structural/proxy/IMath.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/structural/proxy/IMath.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/structural/proxy/MathImpl.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/structural/proxy/MathImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/src/ru/forxy/patterns/structural/proxy/MathProxy.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/patterns/structural/proxy/MathProxy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/tests/ru/forxy/patterns/DesignPatternsTestRunner.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/DesignPatternsTestRunner.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/tests/ru/forxy/patterns/DesignPatternsTestSuite.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/DesignPatternsTestSuite.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/tests/ru/forxy/patterns/behavioral/BehavioralPatternsTestSuite.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/behavioral/BehavioralPatternsTestSuite.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/tests/ru/forxy/patterns/behavioral/command/CommandTest.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/behavioral/command/CommandTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/tests/ru/forxy/patterns/behavioral/interpreter/InterpreterTest.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/behavioral/interpreter/InterpreterTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/tests/ru/forxy/patterns/behavioral/mediator/MediatorTest.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/behavioral/mediator/MediatorTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/tests/ru/forxy/patterns/behavioral/memento/MementoTest.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/behavioral/memento/MementoTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/tests/ru/forxy/patterns/behavioral/observer/ObserverTest.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/behavioral/observer/ObserverTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/tests/ru/forxy/patterns/behavioral/responsibility/ResponsibilityChainTest.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/behavioral/responsibility/ResponsibilityChainTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/tests/ru/forxy/patterns/behavioral/servant/ServantTest.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/behavioral/servant/ServantTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/tests/ru/forxy/patterns/behavioral/state/StateTest.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/behavioral/state/StateTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/tests/ru/forxy/patterns/behavioral/strategy/StrategyTest.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/behavioral/strategy/StrategyTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/tests/ru/forxy/patterns/behavioral/templatemethod/TemplateMethodTest.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/behavioral/templatemethod/TemplateMethodTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/tests/ru/forxy/patterns/behavioral/visitor/VisitorTest.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/behavioral/visitor/VisitorTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/tests/ru/forxy/patterns/creational/CreationalPatternsTestSuite.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/creational/CreationalPatternsTestSuite.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/tests/ru/forxy/patterns/creational/abstractfactory/AbstractFactoryTest.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/creational/abstractfactory/AbstractFactoryTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/tests/ru/forxy/patterns/creational/builder/BuilderTest.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/creational/builder/BuilderTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/tests/ru/forxy/patterns/creational/factorymethod/FactoryMethodTest.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/creational/factorymethod/FactoryMethodTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/tests/ru/forxy/patterns/creational/objectpool/ObjectPoolTest.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/creational/objectpool/ObjectPoolTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/tests/ru/forxy/patterns/creational/prototype/PrototypeTest.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/creational/prototype/PrototypeTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/tests/ru/forxy/patterns/creational/singleton/SingletonTest.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/creational/singleton/SingletonTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/tests/ru/forxy/patterns/structural/StructuralPatternsTestSuite.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/structural/StructuralPatternsTestSuite.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/tests/ru/forxy/patterns/structural/adapter/AdapterTest.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/structural/adapter/AdapterTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/tests/ru/forxy/patterns/structural/bridge/BridgeTest.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/structural/bridge/BridgeTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/tests/ru/forxy/patterns/structural/composite/CompositeTest.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/structural/composite/CompositeTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/tests/ru/forxy/patterns/structural/decorator/DecoratorTest.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/structural/decorator/DecoratorTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/tests/ru/forxy/patterns/structural/facade/FacadeTest.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/structural/facade/FacadeTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/tests/ru/forxy/patterns/structural/flyweight/FlyweightTest.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/structural/flyweight/FlyweightTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DesignPatterns/tests/ru/forxy/patterns/structural/proxy/ProxyTest.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/structural/proxy/ProxyTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/sample/callcenter/Person.java" afterPath="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/sample/callcenter/Person.java" />
     </list>
     <ignored path="Java.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -212,10 +75,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CallCenter.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CallCenter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/sample/callcenter/CallCenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65675056" vertical-offset="133" max-vertical-offset="1050">
+            <state vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="1050">
               <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -249,16 +112,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Person.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Person.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/sample/callcenter/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.10297483" vertical-offset="0" max-vertical-offset="437">
+              <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
               <folding>
-                <element signature="e#172#173#0" expanded="true" />
-                <element signature="e#204#205#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -545,12 +408,12 @@
         <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/sample/business/Customer.java" />
         <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/sample/business/Operator.java" />
         <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/sample/business/CallCenter.java" />
-        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/sample/callcenter/Person.java" />
         <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/sample/callcenter/Dispatcher.java" />
         <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/sample/callcenter/Customer.java" />
         <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/sample/callcenter/CallCenter.java" />
         <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/sample/callcenter/Operator.java" />
         <option value="$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/sample/callcenter/CallCenterTest.java" />
+        <option value="$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/sample/callcenter/Person.java" />
       </list>
     </option>
   </component>
@@ -1151,12 +1014,12 @@
       <updated>1402947805323</updated>
       <workItem from="1402947809521" duration="2692000" />
       <workItem from="1402950690228" duration="643000" />
-      <workItem from="1402951555925" duration="4007000" />
+      <workItem from="1402951555925" duration="4192000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7342000" />
+    <option name="totallyTimeSpent" value="7527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="810" extended-state="6" />
@@ -1425,19 +1288,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/sample/callcenter/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding>
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DesignPatterns/src/test/java/ru/forxy/patterns/sample/callcenter/CallCenterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="73" max-vertical-offset="660">
@@ -1467,7 +1317,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/sample/callcenter/CallCenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65675056" vertical-offset="133" max-vertical-offset="1050">
+        <state vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="1050">
           <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1479,6 +1329,19 @@
             <element signature="e#800#801#0" expanded="true" />
             <element signature="e#1736#1737#0" expanded="true" />
             <element signature="e#1782#1783#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatterns/src/main/java/ru/forxy/sample/callcenter/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10297483" vertical-offset="0" max-vertical-offset="437">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
           </folding>
         </state>
       </provider>
