@@ -10,15 +10,19 @@ package ru.forxy;
 
 class A {
     private int id;
+
     public A(int id) {
         this.id = id;
     }
+
     protected void finalize() {
         System.out.println(id + " removed");
     }
-    public A clone(){
+
+    public A clone() {
         return new A(id);
     }
+
     public String toString() {
         return "A.Id: " + String.valueOf(id);
     }
@@ -71,9 +75,15 @@ class Sub extends Base {
 
 public class Main {
 
-
+    public static int max(int a, int b) {
+        int diff = a - b;
+        int sign = (diff >> 31) & 0x1;
+        return a - sign * diff;
+    }
 
     public static void main(String[] args) throws InterruptedException {
+
+        System.out.println(max(5, 10) + " is max of 5 and 10");
         /*//Runtime.getRuntime().totalMemory();
         A a1 = new A(1);
         A a2 = new A(2);
@@ -112,5 +122,27 @@ public class Main {
         //s.m();
         //Integer i = 0;
         //System.out.println(Integer.parseInt("100.1", 8));
+    }
+
+    private static int search(final int[] a, final int number_to_find) {
+        return search(a, number_to_find, 0, a.length - 1);
+    }
+
+    private static int search(final int[] a, final int number_to_find, int start, int end) {
+        if (a[start] == number_to_find) {
+            return start;
+        } else if (a[end] == number_to_find) {
+            return end;
+        } else if (Math.abs(start - end) <= 1) {
+            return -1;
+        } else {
+            int middle = (start + end) / 2;
+            int found;
+            found = search(a, number_to_find, start, middle);
+            if (found < 0) {
+                found = search(a, number_to_find, middle, end);
+            }
+            return found;
+        }
     }
 }

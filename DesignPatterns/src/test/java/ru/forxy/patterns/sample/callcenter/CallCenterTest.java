@@ -2,9 +2,12 @@ package ru.forxy.patterns.sample.callcenter;
 
 import org.junit.Assert;
 import org.junit.Test;
-import ru.forxy.sample.callcenter.CallCenter;
-import ru.forxy.sample.callcenter.Customer;
-import ru.forxy.sample.callcenter.Operator;
+import ru.forxy.sample.callhandler.CallCenter;
+import ru.forxy.sample.callhandler.Customer;
+import ru.forxy.sample.callhandler.Fresher;
+import ru.forxy.sample.callhandler.ProjectManager;
+import ru.forxy.sample.callhandler.Severity;
+import ru.forxy.sample.callhandler.TechnicalLead;
 
 /**
  * Unit test for CallCenter
@@ -13,30 +16,19 @@ public class CallCenterTest {
 
     @Test
     public void testCallCenterHappyPath() throws InterruptedException {
-        CallCenter callCenter = new CallCenter(5);
-        callCenter.call(new Customer("Alex"));
-        callCenter.call(new Customer("Valery"));
-        callCenter.call(new Customer("Max"));
-        callCenter.call(new Customer("David"));
-        callCenter.call(new Customer("Matt"));
-        Assert.assertEquals(5, callCenter.getQueueSize());
-        callCenter.registerOperator("Terminator");
-        callCenter.registerOperator("Sunny");
-        callCenter.registerOperator("RoboChicken");
-        Thread.sleep(1000);
-        Assert.assertEquals(0, callCenter.getQueueSize());
-    }
+        ProjectManager projectManager = new ProjectManager("PM");
+        TechnicalLead technicalLead = new TechnicalLead("TL", projectManager);
+        CallCenter callCenter = new CallCenter();
 
-    @Test
-    public void testCallCenterOverload() {
-        CallCenter callCenter = new CallCenter(2);
-        callCenter.call(new Customer("Max"));
-        callCenter.call(new Customer("David"));
-        try {
-            callCenter.call(new Customer("Alex"));
-            Assert.fail();
-        } catch (IllegalArgumentException e) {
-            Assert.assertNotNull(e.getMessage());
-        }
+        callCenter.registerOperator(new Fresher("F1", technicalLead));
+        callCenter.registerOperator(new Fresher("F2", technicalLead));
+
+        callCenter.call(new Customer("C1", Severity.LOW));
+        callCenter.call(new Customer("C2", Severity.MEDIUM));
+        callCenter.call(new Customer("C3", Severity.HIGH));
+
+        Thread.sleep(1000);
+        callCenter.stopWorking(3);
+        Assert.assertEquals(3, callCenter.getRecorder().getLog().size());
     }
 }

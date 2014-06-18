@@ -1,11 +1,12 @@
-package ru.forxy.sample.callcenter;
+package ru.forxy.sample.callhandler;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
-import java.util.concurrent.Executor;
+import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Call center logic implementation class
@@ -15,11 +16,12 @@ public class CallCenter {
 
     private final int capacity;
     private final Queue<Customer> dispatchingQueue = new ConcurrentLinkedQueue<Customer>();
-    private final Executor executor = Executors.newCachedThreadPool();
-    private final Map<String, Operator> staff = new HashMap<String, Operator>();
+    private final ExecutorService executor = Executors.newCachedThreadPool();
+    private final Map<String, Fresher> staff = new HashMap<String, Fresher>();
+    private final Recorder recorder = new Recorder();
 
     public CallCenter() {
-        capacity = DEFAULT_CAPACITY;
+        this(DEFAULT_CAPACITY);
     }
 
     public CallCenter(int queueCapacity) {
@@ -33,23 +35,26 @@ public class CallCenter {
         dispatchingQueue.add(callingCustomer);
     }
 
-    public void registerOperator(String name) {
-        Operator operator = new Operator(name, dispatchingQueue);
-        staff.put(name, operator);
-        executor.execute(operator);
+    public void registerOperator(Fresher fresher) {
+        fresher.setDispatchingQueue(dispatchingQueue);
+        fresher.setRecorder(recorder);
+        staff.put(fresher.getName(), fresher);
+        executor.execute(fresher);
     }
 
     public void unregisterOperator(String name) {
-        Operator operator = staff.get(name);
+        Fresher operator = staff.get(name);
         if (operator != null) {
             operator.goHome();
         }
     }
 
-    public void stopWorking() {
-        for (Operator operator : staff.values()) {
+    public void stopWorking(final long secondsToWait) throws InterruptedException {
+        for (Fresher operator : staff.values()) {
             operator.goHome();
         }
+        staff.clear();
+        executor.awaitTermination(secondsToWait, TimeUnit.SECONDS);
     }
 
     public void call(Customer customer) {
@@ -58,7 +63,7 @@ public class CallCenter {
         }
     }
 
-    public int getQueueSize() {
-        return dispatchingQueue.size();
+    public Recorder getRecorder() {
+        return recorder;
     }
 }
