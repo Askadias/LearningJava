@@ -1,4 +1,4 @@
-package ru.forxy.sample.callhandler;
+package ru.forxy.sample.callcenter;
 
 /**
  * Base class for person representation

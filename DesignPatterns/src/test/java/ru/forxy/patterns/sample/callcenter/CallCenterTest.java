@@ -2,12 +2,12 @@ package ru.forxy.patterns.sample.callcenter;
 
 import org.junit.Assert;
 import org.junit.Test;
-import ru.forxy.sample.callhandler.CallCenter;
-import ru.forxy.sample.callhandler.Customer;
-import ru.forxy.sample.callhandler.Fresher;
-import ru.forxy.sample.callhandler.ProjectManager;
-import ru.forxy.sample.callhandler.Severity;
-import ru.forxy.sample.callhandler.TechnicalLead;
+import ru.forxy.sample.callcenter.CallCenter;
+import ru.forxy.sample.callcenter.Customer;
+import ru.forxy.sample.callcenter.Fresher;
+import ru.forxy.sample.callcenter.ProjectManager;
+import ru.forxy.sample.callcenter.Severity;
+import ru.forxy.sample.callcenter.TechnicalLead;
 
 /**
  * Unit test for CallCenter

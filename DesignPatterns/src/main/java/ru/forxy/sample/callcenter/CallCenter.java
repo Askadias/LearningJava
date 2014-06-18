@@ -1,4 +1,4 @@
-package ru.forxy.sample.callhandler;
+package ru.forxy.sample.callcenter;
 
 import java.util.HashMap;
 import java.util.Map;
