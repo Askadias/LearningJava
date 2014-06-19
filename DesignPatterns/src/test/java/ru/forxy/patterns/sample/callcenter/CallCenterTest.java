@@ -28,7 +28,7 @@ public class CallCenterTest {
         callCenter.call(new Customer("C3", Severity.HIGH));
 
         Thread.sleep(1000);
-        callCenter.stopWorking(3);
+        callCenter.stopWorking(1);
         Assert.assertEquals(3, callCenter.getRecorder().getLog().size());
     }
 }
