@@ -54,7 +54,9 @@ public class CallCenter {
             operator.goHome();
         }
         staff.clear();
-        executor.awaitTermination(secondsToWait, TimeUnit.SECONDS);
+        if (!executor.awaitTermination(secondsToWait, TimeUnit.SECONDS)) {
+            executor.shutdownNow();
+        }
     }
 
     public void call(Customer customer) {
